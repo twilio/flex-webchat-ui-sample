@@ -1,0 +1,28 @@
+body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  position: relative;
+  background-size: cover;
+  background-image: url("/img/background.png");
+  background-color: #6D7697;
+}
+
+body:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 174px;
+  height: 182px;
+  margin-left: -87px;
+  margin-top: -91px;
+  opacity: 0.2;
+  background: url("/img/logo.svg");
+}
