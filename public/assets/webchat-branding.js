@@ -1,8 +1,8 @@
-const brandColor1 = "#1976d2";
-const brandColor2 = "#233659";
-const brandTextColor = "#ffffff";
+var brandColor1 = "#1976d2";
+var brandColor2 = "#233659";
+var brandTextColor = "#ffffff";
 
-const personalizedColors = {
+var personalizedColors = {
    darkBlueBackground: "#3C425C",
    whiteText: "#FFFFFF",
    entryPointBackground: "#3C425C",
@@ -13,21 +13,23 @@ const personalizedColors = {
    secondaryButtonColor: "#FFFFFF"
 };
 
-const brandMessageBubbleColors = (bgColor) => ({
-    Bubble: {
-        background: bgColor,
-        color: brandTextColor
-    },
-    Avatar: {
-        background: bgColor,
-        color: brandTextColor
-    },
-    Header: {
-        color: brandTextColor
+var brandMessageBubbleColors = function (bgColor) {
+    return {
+        Bubble: {
+            background: bgColor,
+            color: brandTextColor
+        },
+        Avatar: {
+            background: bgColor,
+            color: brandTextColor
+        },
+        Header: {
+            color: brandTextColor
+        }
     }
-});
+};
 
-const brandedColors = {
+var brandedColors = {
     Chat: {
         MessageListItem: {
             FromOthers: brandMessageBubbleColors(brandColor2),
