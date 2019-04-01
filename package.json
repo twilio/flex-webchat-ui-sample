@@ -1,9 +1,9 @@
 {
   "name": "@twilio/flex-webchat-ui-sample",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "dependencies": {
-    "@twilio/flex-webchat-ui": "^1.0.0",
+    "@twilio/flex-webchat-ui": "^2.0.0",
     "array-findindex-polyfill": "^0.1.0",
     "ie-array-find-polyfill": "^1.1.0",
     "react": "^16.5.2",
