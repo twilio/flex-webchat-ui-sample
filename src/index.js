@@ -1,7 +1,6 @@
-// Uncomment to add polyfills to run on IE (e.g. IE11)
-// import 'react-app-polyfill/ie9';
-// import 'ie-array-find-polyfill';
-// import 'array-findindex-polyfill';
+// Comment out following polyfills if you don't need IE11 support
+import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
 
 import React from 'react';
 import ReactDOM from 'react-dom';

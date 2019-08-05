@@ -7,7 +7,7 @@
     "array-findindex-polyfill": "^0.1.0",
     "ie-array-find-polyfill": "^1.1.0",
     "react": "^16.5.2",
-    "react-app-polyfill": "^0.2.2",
+    "react-app-polyfill": "^1.0.1",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.5"
   },
@@ -23,7 +23,8 @@
   "browserslist": [
     ">0.2%",
     "not dead",
-    "not ie <= 11",
+    "ie 11",
+    "not ie < 11",
     "not op_mini all"
   ]
 }
